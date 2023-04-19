@@ -1,0 +1,32 @@
+{
+  "name": "common-ipc",
+  "version": "1.0.0",
+  "description": "Basic implementation to support ipc communication with node.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaychsu/common-ipc.git"
+  },
+  "keywords": [
+    "node",
+    "ipc",
+    "node-ipc"
+  ],
+  "author": "Jyun Hong Su",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaychsu/common-ipc/issues"
+  },
+  "homepage": "https://github.com/jaychsu/common-ipc#readme",
+  "dependencies": {
+    "node-ipc": "10.1.0"
+  },
+  "overrides": {
+    "node-ipc@>9.2.1 <10": "9.2.1",
+    "node-ipc@>10.1.0": "10.1.0"
+  }
+}
